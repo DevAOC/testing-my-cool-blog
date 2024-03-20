@@ -34,10 +34,6 @@ export async function onSuccess({ params, record, logger, api, connections }) {
     .catch((error) => {
       logger.error(error.message);
     });
-
-  // await api.internal.blog.update(record.id, {
-  // Some field representing the conversation
-  // })
 }
 
 /** @type { ActionOptions } */
