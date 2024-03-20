@@ -15,6 +15,7 @@ export default function () {
         published: true,
         authorName: true,
       },
+      live: true,
     });
 
   if (fetchingBlog) {
