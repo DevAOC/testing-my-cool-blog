@@ -1,0 +1,3 @@
+field on blog {
+  concat([author.firstName, " ", author.lastName])
+}
